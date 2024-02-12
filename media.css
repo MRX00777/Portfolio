@@ -1,0 +1,148 @@
+@media (max-width: 1300px) {
+    /* Home  start*/
+
+    .home-img img{
+       width: 300px !important;
+       height: 300px !important;
+    }
+    .home-img {
+       width: 300px !important;
+       height: 300px !important;
+    }
+
+    .home-img__border{
+        width: 300px !important;
+       height: 300px !important;
+    }
+
+    
+    
+
+    
+    /* Home end */
+}
+
+
+
+@media (max-width: 1100px) {
+    /* Home  start*/
+
+    .home-img img{
+        width: 200px !important;
+        height: 200px !important;
+        
+     }
+     .home-img {
+        width: 200px !important;
+        height: 200px !important;
+        z-index: -1 !important;
+        margin-left: auto;
+     }
+ 
+     .home-img__border{
+         width: 200px !important;
+        height: 200px !important;
+     }
+
+     /* Home end */
+
+
+     /* About start */
+
+    .home-img2 img{
+        width: 300px !important;
+        height: 300px !important;
+        
+     }
+     .home-img2 {
+        width: 300px !important;
+        height: 300px !important;
+        z-index: -1 !important;
+        margin-left: auto;
+     }
+ 
+     .home-img__border2{
+         width: 300px !important;
+        height: 300px !important;
+     }
+    
+
+     .home-content{
+        position: absolute;
+        z-index: 9 !important;
+     }
+
+     
+
+
+
+    
+    
+}
+
+
+@media (max-width: 900px) {
+    /* Home  start*/
+
+    .home-img {
+        display: none;
+     }
+
+     .navbar{
+        flex-direction: column;
+        column-gap: 30px;
+        gap: 30px;
+        justify-content: start;
+     }
+     
+     
+     .nav-list{
+        flex-direction: column;
+        /* display: none;
+        width: 0;
+        height: 0;
+        opacity: 0; */
+     }
+
+     .logo{
+        opacity: 1 !important;
+        width: max-content !important;
+     }
+
+     .nav-list .show {
+        display: none;
+      }
+
+      .nav__toggle{
+        display: block !important;
+      }
+
+     
+
+    
+    /* Home end */
+
+
+    /* About start */
+
+
+    .about{
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        margin-left: auto !important;
+    }
+
+    .contact{
+        flex-wrap: wrap !important;
+    }
+
+    .sub-title{
+        padding: 40px 0 !important;
+    }
+
+
+    .main-text{
+        padding-top: 0px !important;
+        margin-top: 200px;
+    }
+}
