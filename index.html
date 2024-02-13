@@ -19,12 +19,12 @@
         
         <nav class="navbar" id="home" >
             <a href="#" class="logo">Portfolio</a>
-            <div class="nav-list show">
+            <div id="nav-list-origin" class="nav-list show">
                 <a href="#" style="--i:1" id="nav-list-link1" class=" active">Home</a>
                 <a href="#about" style="--i:2" id="nav-list-link2">About</a>
                 <a href="#skills" style="--i:3" id="nav-list-link3">Skills</a>
                 <a href="#portfolio" style="--i:4" id="nav-list-link4">Portfolio</a>
-                <a href="#contact" style="--i:5" id="nav-list-link4">Contacts</a>
+                <a href="#contact" style="--i:5" id="nav-list-link5">Contacts</a>
             </div>
         </nav>
 
@@ -40,8 +40,8 @@
                 <h3>Hello, It's Me</h3>
                 <h1>Sharofov Yoqub</h1>
                 <h3>And I'm a <span class="text"></span></h3>
-                <p>a web Designer with extensive experience for over 3 years.
-                    <br>expertise is to create and website design, Frontend design, and many more...
+                <p>
+                    Welcome to my personal website!
                 </p>
                 <div class="home-sci">
                     <a href="#" style="--i:7"><i class="fa-brands fa-square-facebook"></i></a>
@@ -53,7 +53,7 @@
             </div>
             <div class="home-img">
                 <div class="home-img__border">
-                    <img src="./myphoto.jpg" alt="">
+                    <img src="./img/myphoto.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -64,12 +64,12 @@
     <section class="container about  " id="about">
         <div class="home-img2">
             <div class="home-img__border2">
-                <img src="./myphoto.jpg" alt="">
+                <img src="./img/myphoto.jpg" alt="">
             </div>
         </div>
         <div class="container about-text">
             <h2>About <span>Me</span></h2>
-            <h4>Full Stack Developer!</h4>
+            <h4>Junior Web Developer!</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis officia velit quam veritatis omnis,
                 error enim nihil illum. Similique nulla aut dolores repellendus voluptates repudiandae beatae fugit
                 iusto, magni commodi fuga non. Magnam veritatis architecto cupiditate soluta quas magni culpa dolores,
@@ -84,7 +84,7 @@
 
 
     <section>
-        <div class="services" id="services">
+        <div class="services none" id="services">
             <div class="container">
                 <h1 class="sub-title">My <span>Services</span></h1>
                 <div class="services-list">
@@ -211,34 +211,70 @@
 
     
 
-    <section>
+    <section class="container">
         <div id="portfolio" id="project">
             <div class="main-text" id="project">
                 <h2>Latest<span>Project</span></h2>
 
-                <div class="portfolio-content">
-                    <div class="row">
-                        <img src="https://www.acelema.com/blog/wp-content/uploads/2022/07/1_5IYtIe5OwxeoYXi226J-Uw.jpeg" alt="img">
+                <div class=" portfolio-content ">
+                    <div class="row ">
+                        <img src="./img/cinephile.jpg" alt="img">
                         <div class="layer">
-                            <h5>UI/UX Design</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus deserunt ex odio doloremque similique quibusdam adipisci perferendis quisquam reiciendis.</p>
-                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #00eeff;"></i></a>
+                            <h5>Vue-Cinemas</h5>
+                            <div>
+                                <a href="https://mrx-cinephile.netlify.app/"><i class="fa-solid fa-eye" style="color: #00eeff;"></i></a>
+                                <a href="https://github.com/MRX00777/Vue-Cinemas"><i class="fa-solid fa-code" style="color: #00eeff;"></i></a>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
-                        <img src="https://www.acelema.com/blog/wp-content/uploads/2022/07/1_5IYtIe5OwxeoYXi226J-Uw.jpeg" alt="img">
+                        <img src="./img/notebook.jpg" alt="notebook">
                         <div class="layer">
-                            <h5>UI/UX Design</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus deserunt ex odio doloremque similique quibusdam adipisci perferendis quisquam reiciendis.</p>
-                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #00eeff;"></i></a>
+                            <h5>Notebook</h5>
+                            <div>
+                                <a href="https://mrx-notebook.netlify.app/"><i class="fa-solid fa-eye" style="color: #00eeff;"></i></a>
+                                <a href="https://github.com/MRX00777/Notebook"><i class="fa-solid fa-code" style="color: #00eeff;"></i></a>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
-                        <img src="https://www.acelema.com/blog/wp-content/uploads/2022/07/1_5IYtIe5OwxeoYXi226J-Uw.jpeg" alt="img">
+                        <img src="./img/sushi.jpg" alt="img">
                         <div class="layer">
-                            <h5>UI/UX Design</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus deserunt ex odio doloremque similique quibusdam adipisci perferendis quisquam reiciendis.</p>
-                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #00eeff;"></i></a>
+                            <h5>Sushi</h5>
+                            <div>
+                                <a href="https://mrx00777.github.io/Sushi/"><i class="fa-solid fa-eye" style="color: #00eeff;"></i></a>
+                                <a href="https://github.com/MRX00777/Sushi"><i class="fa-solid fa-code" style="color: #00eeff;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="./img/cinemas.jpg" alt="img">
+                        <div class="layer">
+                            <h5>Cinimas</h5>
+                            <div>
+                                <a href="https://mrx00777.github.io/Vue-Cinimas/"><i class="fa-solid fa-eye" style="color: #00eeff;"></i></a>
+                                <a href="https://github.com/MRX00777/Vue-Cinimas"><i class="fa-solid fa-code" style="color: #00eeff;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="./img/gotrip.jpg" alt="img">
+                        <div class="layer">
+                            <h5>GoTrip</h5>
+                            <div>
+                                <a href="https://mrx00777.github.io/GoTrip/"><i class="fa-solid fa-eye" style="color: #00eeff;"></i></a>
+                                <a href="https://github.com/MRX00777/GoTrip"><i class="fa-solid fa-code" style="color: #00eeff;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="./img/js_snake_game.jpg" alt="img">
+                        <div class="layer">
+                            <h5>Js snake game</h5>
+                            <div>
+                                <a href="https://mrx00777.github.io/Js_snake-game/"><i class="fa-solid fa-eye" style="color: #00eeff;"></i></a>
+                                <a href="https://github.com/MRX00777/Js_snake-game"><i class="fa-solid fa-code" style="color: #00eeff;"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
