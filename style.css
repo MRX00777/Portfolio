@@ -165,6 +165,7 @@ body {
     height: 400px;
     border-radius: 50%;
     border: 15px solid #0ef;
+    object-fit: cover;
     /* animation: contentCircleY 50000ms infinite; */
     /* z-index: 998; */
 }
